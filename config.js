@@ -157,24 +157,24 @@ const CONFIG = {
 			],
 		},
 		{
-			icon: 'coffee',
+			icon: 'theater',
 			id: '2',
 			links: [
 				{
-					name: 'Linkedin',
-					link: 'https://www.linkedin.com',
+					name: 'RottenTomatoes',
+					link: 'https://www.rottentomatoes.com/browse/movies_at_home/sort:popular',
 				},
 				{
-					name: 'Dribbble',
-					link: 'https://www.dribbble.com',
+					name: 'Goodreads',
+					link: 'https://www.goodreads.com/',
 				},
 				{
-					name: 'Trello',
-					link: 'https://www.trello.com',
+					name: 'Instagram',
+					link: 'https://www.instagram.com/',
 				},
 				{
-					name: 'Slack',
-					link: 'https://www.slack.com',
+					name: 'Twitter',
+					link: 'https://twitter.com/home?lang=en',
 				},
 			],
 		},
