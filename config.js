@@ -169,12 +169,12 @@ const CONFIG = {
 					link: 'https://www.goodreads.com/',
 				},
 				{
-					name: '',
-					link: '',
+					name: 'ji',
+					link: 'https://www.google.com',
 				},
 				{
-					name: '',
-					link: ',
+					name: 'hi',
+					link: 'https://www.google.com',
 				},
 			],
 		},
