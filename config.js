@@ -53,9 +53,9 @@ const CONFIG = {
 	firstButtonsContainer: [
 		{
 			id: '1',
-			name: 'Youtube',
-			icon: 'youtube',
-			link: 'https://www.youtube.com/',
+			name: 'Nuku',
+			icon: 'school',
+			link: 'https://nuku.wgtn.ac.nz/',
 		},
 		{
 			id: '2',
@@ -71,9 +71,9 @@ const CONFIG = {
 		},
 		{
 			id: '4',
-			name: 'Messenger',
-			icon: 'messages-square',
-			link: 'https://www.facebook.com/messages/t/',
+			name: 'Neetcode',
+			icon: 'terminal',
+			link: 'https://neetcode.io/practice',
 		},
 		{
 			id: '5',
@@ -169,12 +169,12 @@ const CONFIG = {
 					link: 'https://www.goodreads.com/',
 				},
 				{
-					name: 'Instagram',
-					link: 'https://www.instagram.com/',
+					name: '',
+					link: '',
 				},
 				{
-					name: 'Twitter',
-					link: 'https://twitter.com/home?lang=en',
+					name: '',
+					link: ',
 				},
 			],
 		},
