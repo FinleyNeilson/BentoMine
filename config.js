@@ -59,9 +59,9 @@ const CONFIG = {
 		},
 		{
 			id: '2',
-			name: 'Mail',
-			icon: 'mail',
-			link: 'https://mail.google.com/mail/u/0/#inbox',
+			name: 'Puaha',
+			icon: 'notebook-pen',
+			link: 'https://puaha.wgtn.ac.nz/',
 		},
 		{
 			id: '3',
@@ -77,15 +77,15 @@ const CONFIG = {
 		},
 		{
 			id: '5',
-			name: 'Bank',
-			icon: 'piggy-bank',
-			link: 'https://www.ib.kiwibank.co.nz/login',
+			name: 'timetable',
+			icon: 'calendar-days',
+			link: 'https://student-sa.victoria.ac.nz/',
 		},
 		{
 			id: '6',
-			name: 'PirateBay',
-			icon: 'cloud-download',
-			link: 'https://pirateproxylive.org/',
+			name: 'repositories',
+			icon: 'folder-git',
+			link: 'https://github.com/FinleyNeilson?tab=repositories',
 		},
 	],
 
@@ -135,8 +135,31 @@ const CONFIG = {
 	// First Links Container
 	firstlistsContainer: [
 		{
-			icon: 'code',
+			icon: 'gallery-horizontal-end',
 			id: '1',
+			links: [
+				{
+					name: 'Machine Learning',
+					link: 'https://ecs.wgtn.ac.nz/Courses/COMP309_2024T2/WebHome',
+				},
+				{
+					name: 'Scalable Software',
+					link: 'https://ecs.wgtn.ac.nz/Courses/SWEN301_2024T2/WebHome',
+				},
+				{
+					name: 'Ethical Theory',
+					link: 'https://www.google.com',
+				},
+				{
+					name: 'Mathematical logic',
+					link: 'https://www.google.com',
+				},
+			],
+			
+		},
+		{
+			icon: 'code',
+			id: '2',
 			links: [
 				{
 					name: 'Monkeytype',
@@ -153,28 +176,6 @@ const CONFIG = {
 				{
 					name: 'Codewars',
 					link: 'https://www.codewars.com/',
-				},
-			],
-		},
-		{
-			icon: 'theater',
-			id: '2',
-			links: [
-				{
-					name: 'RottenTomatoes',
-					link: 'https://www.rottentomatoes.com/browse/movies_at_home/sort:popular',
-				},
-				{
-					name: 'Goodreads',
-					link: 'https://www.goodreads.com/',
-				},
-				{
-					name: 'ji',
-					link: 'https://www.google.com',
-				},
-				{
-					name: 'hi',
-					link: 'https://www.google.com',
 				},
 			],
 		},
