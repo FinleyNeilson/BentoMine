@@ -148,11 +148,11 @@ const CONFIG = {
 				},
 				{
 					name: 'Ethical Theory',
-					link: 'https://www.google.com',
+					link: 'https://nuku.wgtn.ac.nz/courses/21458',
 				},
 				{
 					name: 'Mathematical logic',
-					link: 'https://www.google.com',
+					link: 'https://nuku.wgtn.ac.nz/courses/17601',
 				},
 			],
 			
