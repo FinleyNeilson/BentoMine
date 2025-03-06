@@ -53,15 +53,15 @@ const CONFIG = {
 	firstButtonsContainer: [
 		{
 			id: '1',
-			name: 'Nuku',
-			icon: 'school',
-			link: 'https://nuku.wgtn.ac.nz/',
+			name: 'Mail',
+			icon: 'mail',
+			link: 'https://mail.google.com/mail/u/0/#inbox',
 		},
 		{
 			id: '2',
-			name: 'Puaha',
-			icon: 'notebook-pen',
-			link: 'https://puaha.wgtn.ac.nz/',
+			name: 'Library',
+			icon: 'library',
+			link: 'https://libgen.gs/',
 		},
 		{
 			id: '3',
@@ -77,8 +77,8 @@ const CONFIG = {
 		},
 		{
 			id: '5',
-			name: 'timetable',
-			icon: 'calendar-days',
+			name: 'AdventOfCode',
+			icon: 'https://adventofcode.com/',
 			link: 'https://student-sa.victoria.ac.nz/',
 		},
 		{
