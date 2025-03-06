@@ -148,11 +148,11 @@ const CONFIG = {
 				},
 				{
 					name: 'dotfyle.com',
-					link: 'https://dotfyle.com/',
+					link: 'https://dotfyle.com/neovim/configurations/top',
 				},
 				{
-					name: 'PopularConfigs',
-					link: 'https://dotfyle.com/neovim/configurations/top',
+					name: 'VimTips',
+					link: 'https://vim.fandom.com/wiki/Vim_Tips_Wiki',
 				},
 			],
 			
