@@ -139,20 +139,20 @@ const CONFIG = {
 			id: '1',
 			links: [
 				{
-					name: 'Machine Learning',
-					link: 'https://ecs.wgtn.ac.nz/Courses/COMP309_2024T2/WebHome',
+					name: 'MyDotfiles',
+					link: 'https://github.com/FinleyNeilson/dotfiles',
 				},
 				{
-					name: 'Scalable Software',
-					link: 'https://ecs.wgtn.ac.nz/Courses/SWEN301_2024T2/WebHome',
+					name: 'VimColorschemes',
+					link: 'https://vimcolorschemes.com/i/trending',
 				},
 				{
-					name: 'Ethical Theory',
-					link: 'https://nuku.wgtn.ac.nz/courses/21458',
+					name: 'dotfyle.com',
+					link: 'https://dotfyle.com/',
 				},
 				{
-					name: 'Mathematical logic',
-					link: 'https://nuku.wgtn.ac.nz/courses/17601',
+					name: 'PopularConfigs',
+					link: 'https://dotfyle.com/neovim/configurations/top',
 				},
 			],
 			
