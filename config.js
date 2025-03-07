@@ -78,8 +78,8 @@ const CONFIG = {
 		{
 			id: '5',
 			name: 'AdventOfCode',
-			icon: 'https://adventofcode.com/',
-			link: 'https://student-sa.victoria.ac.nz/',
+			icon: 'qr-code',
+			link: 'https://adventofcode.com/',
 		},
 		{
 			id: '6',
@@ -147,7 +147,7 @@ const CONFIG = {
 					link: 'https://vimcolorschemes.com/i/trending',
 				},
 				{
-					name: 'dotfyle.com',
+					name: 'Dotfyles',
 					link: 'https://dotfyle.com/neovim/configurations/top',
 				},
 				{
