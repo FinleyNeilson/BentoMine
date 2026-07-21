@@ -83,6 +83,10 @@ const CONFIG = {
 					name: 'COMPSCI 761: Advanced Topics in AI',
 					link: 'https://canvas.auckland.ac.nz/courses/142730',
 				},
+				{
+					name: '',
+					link: '',
+				},
 			],
 		},
 		{
@@ -101,19 +105,9 @@ const CONFIG = {
 					name: 'Sandbox',
 					link: 'http://localhost:5173/sandbox',
 				},
-			],
-		},
-		{
-			icon: 'film',
-			id: '3',
-			links: [
 				{
 					name: 'Letterboxd',
 					link: 'https://letterboxd.com/',
-				},
-				{
-					name: 'Goodreads',
-					link: 'https://www.goodreads.com/',
 				},
 			],
 		},
