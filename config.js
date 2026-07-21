@@ -57,6 +57,36 @@ const CONFIG = {
 			icon: 'mail',
 			link: 'https://mail.google.com/mail/u/0/#inbox',
 		},
+		{
+			id: '2',
+			name: 'Youtube',
+			icon: 'play',
+			link: 'https://www.youtube.com/',
+		},
+		{
+			id: '3',
+			name: 'Pirate',
+			icon: 'hat-glasses',
+			link: 'https://1337x.to/home/',
+		},
+		{
+			id: '4',
+			name: 'Prosple',
+			icon: 'rocket',
+			link: 'https://nz.prosple.com/',
+		},
+		{
+			id: '5',
+			name: 'AlJazeera',
+			icon: 'globe',
+			link: 'https://www.aljazeera.com/',
+		},
+		{
+			id: '6',
+			name: 'FinancialTimes',
+			icon: 'newspaper',
+			link: 'https://www.ft.com/',
+		},
 	],
 
 	secondButtonsContainer: [],
@@ -72,20 +102,20 @@ const CONFIG = {
 			id: '1',
 			links: [
 				{
-					name: 'Web & Mobile Enterprise Computing',
+					name: 'COMPSCI 734 WEB',
 					link: 'https://canvas.auckland.ac.nz/courses/142356',
 				},
 				{
-					name: 'COMPSCI 701: Creating Maintainable Software',
+					name: 'COMPSCI 701: JAVA',
 					link: 'https://canvas.auckland.ac.nz/courses/142202',
 				},
 				{
-					name: 'COMPSCI 761: Advanced Topics in AI',
+					name: 'COMPSCI 761: AI',
 					link: 'https://canvas.auckland.ac.nz/courses/142730',
 				},
 				{
-					name: '',
-					link: '',
+					name: 'Sandbox',
+					link: 'http://localhost:5173/sandbox',
 				},
 			],
 		},
@@ -94,16 +124,16 @@ const CONFIG = {
 			id: '2',
 			links: [
 				{
-					name: 'Github',
-					link: 'https://github.com/',
+					name: 'Linkedin',
+					link: 'https://www.linkedin.com/feed/',
 				},
 				{
 					name: 'Monkeytype',
 					link: 'https://monkeytype.com/',
 				},
 				{
-					name: 'Sandbox',
-					link: 'http://localhost:5173/sandbox',
+					name: 'Goodreads',
+					link: 'https://www.goodreads.com/',
 				},
 				{
 					name: 'Letterboxd',
