@@ -59,9 +59,9 @@ const CONFIG = {
 		},
 		{
 			id: '2',
-			name: 'Youtube',
-			icon: 'play',
-			link: 'https://www.youtube.com/',
+			name: 'Github',
+			icon: 'github',
+			link: 'https://github.com/',
 		},
 		{
 			id: '3',
@@ -83,9 +83,9 @@ const CONFIG = {
 		},
 		{
 			id: '6',
-			name: 'FinancialTimes',
-			icon: 'newspaper',
-			link: 'https://www.ft.com/',
+			name: 'Youtube',
+			icon: 'play',
+			link: 'https://www.youtube.com/',
 		},
 	],
 
