@@ -57,76 +57,9 @@ const CONFIG = {
 			icon: 'mail',
 			link: 'https://mail.google.com/mail/u/0/#inbox',
 		},
-		{
-			id: '2',
-			name: 'Library',
-			icon: 'library',
-			link: 'https://libgen.gs/',
-		},
-		{
-			id: '3',
-			name: 'GPT',
-			icon: 'bot',
-			link: 'https://chat.openai.com/',
-		},
-		{
-			id: '4',
-			name: 'Neetcode',
-			icon: 'terminal',
-			link: 'https://neetcode.io/practice',
-		},
-		{
-			id: '5',
-			name: 'AdventOfCode',
-			icon: 'qr-code',
-			link: 'https://adventofcode.com/',
-		},
-		{
-			id: '6',
-			name: 'repositories',
-			icon: 'folder-git',
-			link: 'https://github.com/FinleyNeilson?tab=repositories',
-		},
 	],
 
-	secondButtonsContainer: [
-		{
-			id: '1',
-			name: 'Music',
-			icon: 'headphones',
-			link: 'https://open.spotify.com',
-		},
-		{
-			id: '2',
-			name: 'twitter',
-			icon: 'twitter',
-			link: 'https://twitter.com/',
-		},
-		{
-			id: '3',
-			name: 'bot',
-			icon: 'bot',
-			link: 'https://discord.com/app',
-		},
-		{
-			id: '4',
-			name: 'Amazon',
-			icon: 'shopping-bag',
-			link: 'https://amazon.com/',
-		},
-		{
-			id: '5',
-			name: 'Hashnode',
-			icon: 'pen-tool',
-			link: 'https://hashnode.com/',
-		},
-		{
-			id: '6',
-			name: 'Figma',
-			icon: 'figma',
-			link: 'https://figma.com/',
-		},
-	],
+	secondButtonsContainer: [],
 
 	// ┬  ┬┌─┐┌┬┐┌─┐
 	// │  │└─┐ │ └─┐
@@ -135,97 +68,57 @@ const CONFIG = {
 	// First Links Container
 	firstlistsContainer: [
 		{
-			icon: 'gallery-horizontal-end',
+			icon: 'graduation-cap',
 			id: '1',
 			links: [
 				{
-					name: 'MyDotfiles',
-					link: 'https://github.com/FinleyNeilson/dotfiles',
+					name: 'Web & Mobile Enterprise Computing',
+					link: 'https://canvas.auckland.ac.nz/courses/142356',
 				},
 				{
-					name: 'VimColorschemes',
-					link: 'https://vimcolorschemes.com/i/trending',
+					name: 'COMPSCI 701: Creating Maintainable Software',
+					link: 'https://canvas.auckland.ac.nz/courses/142202',
 				},
 				{
-					name: 'Dotfyles',
-					link: 'https://dotfyle.com/neovim/configurations/top',
-				},
-				{
-					name: 'VimTips',
-					link: 'https://vim.fandom.com/wiki/Vim_Tips_Wiki',
+					name: 'COMPSCI 761: Advanced Topics in AI',
+					link: 'https://canvas.auckland.ac.nz/courses/142730',
 				},
 			],
-			
 		},
 		{
 			icon: 'code',
 			id: '2',
 			links: [
 				{
-					name: 'Monkeytype',
-					link: 'https://monkeytype.com/',
-				},
-				{
 					name: 'Github',
 					link: 'https://github.com/',
 				},
 				{
-					name: 'Leetcode',
-					link: 'https://leetcode.com/problemset/',
+					name: 'Monkeytype',
+					link: 'https://monkeytype.com/',
 				},
 				{
-					name: 'Codewars',
-					link: 'https://www.codewars.com/',
+					name: 'Sandbox',
+					link: 'http://localhost:5173/sandbox',
+				},
+			],
+		},
+		{
+			icon: 'film',
+			id: '3',
+			links: [
+				{
+					name: 'Letterboxd',
+					link: 'https://letterboxd.com/',
+				},
+				{
+					name: 'Goodreads',
+					link: 'https://www.goodreads.com/',
 				},
 			],
 		},
 	],
 
 	// Second Links Container
-	secondListsContainer: [
-		{
-			icon: 'binary',
-			id: '1',
-			links: [
-				{
-					name: 'Spotify',
-					link: 'https://www.spotify.com',
-				},
-				{
-					name: 'Reddit',
-					link: 'https://www.reddit.com',
-				},
-				{
-					name: 'Hashnode',
-					link: 'https://www.hashnode.com',
-				},
-				{
-					name: 'Pocket',
-					link: 'https://www.pocket.com',
-				},
-			],
-		},
-		{
-			icon: 'github',
-			id: '2',
-			links: [
-				{
-					name: 'Front',
-					link: 'https://www.reddit.com/r/Frontend/',
-				},
-				{
-					name: 'Rust',
-					link: 'https://www.reddit.com/r/rust/',
-				},
-				{
-					name: 'Go',
-					link: 'https://www.reddit.com/r/golang/',
-				},
-				{
-					name: 'Repos',
-					link: 'https://github.com/migueravila',
-				},
-			],
-		},
-	],
+	secondListsContainer: [],
 };
