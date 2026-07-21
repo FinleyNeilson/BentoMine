@@ -5,25 +5,18 @@
 
 const generateFirstListsContainer = () => {
 	for (const list of CONFIG.firstlistsContainer) {
+		const linkItems = list.links
+			.map(
+				(link) => `
+          <a
+          href="${link.link}"
+          class="listItem"
+          >${link.name}</a>`
+			)
+			.join('');
 		let item = `
         <div class="card list list__${list.id}" id="list_${list.id}">
-          <i class="listIcon" icon-name="${list.icon}"></i>
-          <a
-          href="${list.links[0].link}"
-          class="listItem"
-          >${list.links[0].name}</a>
-          <a
-          href="${list.links[1].link}"
-          class="listItem"
-          >${list.links[1].name}</a>
-          <a
-          href="${list.links[2].link}"
-          class="listItem"
-          >${list.links[2].name}</a>
-          <a
-          href="${list.links[3].link}"
-          class="listItem"
-          >${list.links[3].name}</a>
+          <i class="listIcon" icon-name="${list.icon}"></i>${linkItems}
         </div>
       `;
 		const position = 'beforeend';
@@ -33,25 +26,18 @@ const generateFirstListsContainer = () => {
 
 const generateSecondListsContainer = () => {
 	for (const list of CONFIG.secondListsContainer) {
+		const linkItems = list.links
+			.map(
+				(link) => `
+        <a
+        href="${link.link}"
+        class="listItem"
+        >${link.name}</a>`
+			)
+			.join('');
 		let item = `
         <div class="card list list__${list.id}" id="list_${list.id}">
-        <i class="listIcon" icon-name="${list.icon}"></i>
-        <a
-        href="${list.links[0].link}"
-        class="listItem"
-        >${list.links[0].name}</a>
-        <a
-        href="${list.links[1].link}"
-        class="listItem"
-        >${list.links[1].name}</a>
-        <a
-        href="${list.links[2].link}"
-        class="listItem"
-        >${list.links[2].name}</a>
-        <a
-        href="${list.links[3].link}"
-        class="listItem"
-        >${list.links[3].name}</a>
+        <i class="listIcon" icon-name="${list.icon}"></i>${linkItems}
         </div>
       `;
 		const position = 'beforeend';
